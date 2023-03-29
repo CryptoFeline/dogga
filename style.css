@@ -2446,6 +2446,7 @@ p {
   font-size: 2.5em;
   line-height: 1.2em;
   text-shadow: none;
+  text-decoration:none
 }
 
 ._8-bit-bg {
@@ -3998,6 +3999,12 @@ p {
   border-radius: 6px;
   background-color: #fff;
   box-shadow: 4px 4px 0 0 #000;
+    -webkit-transition: box-shadow 450ms ease;
+    transition: box-shadow 450ms ease;
+}
+
+.story-heading:hover {
+  box-shadow: none;
 }
 
 .merch-heading {
@@ -4018,6 +4025,7 @@ p {
   border-radius: 6px;
   background-color: #fff;
   box-shadow: 4px 4px 0 0 #000;
+  text-decoration:none
 }
 
 .shirts__gif {
@@ -4151,7 +4159,7 @@ p {
 .footer-navigation.is--main {
   position: relative;
   margin-bottom: 0px;
-  padding-top: 2.7em;
+  padding-top: 0em;
   padding-bottom: 0em;
   padding-left: 0%;
   background-color: rgba(26, 25, 255, 0);
@@ -4233,6 +4241,7 @@ p {
 
   .heading.is--medium.is--four {
     font-size: 3.5em;
+    text-decoration:none
   }
 
   .sub-paragraph.is--products {
@@ -4334,6 +4343,7 @@ p {
   .heading.is--medium.is--four {
     font-size: 4em;
     text-align: left;
+    text-decoration:none
   }
 
   ._8-bit-bg {
@@ -4672,6 +4682,7 @@ p {
 
   .heading.is--medium.is--four {
     font-size: 1.4em;
+    text-decoration:none
   }
 
   .hero-container-content {
@@ -5029,10 +5040,15 @@ p {
     font-size: 2.2em;
   }
 
+  .undecorated {
+    text-decoration:none;
+  }
+
   .heading.is--medium.is--four {
     padding-right: 7px;
     padding-left: 7px;
     font-size: 1.8em;
+    text-decoration:none
   }
 
   ._8-bit-bg {
